@@ -1,0 +1,23 @@
+fastapi
+uvicorn
+requests
+pypdf
+python-docx
+typing-extensions
+
+# Optional but recommended for improved performance
+faiss-cpu
+
+# CORS support
+python-multipart
+
+# filetype libraries
+torch 
+transformers 
+python-pptx 
+Pillow
+docx2txt-0.9
+sentence-transformers
+llama-index-embeddings-nomic
+llama-index 
+llama-index-embeddings-openai

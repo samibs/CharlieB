@@ -1,0 +1,4 @@
+Features Supported by the Editions of SQL Server 2012Starting with SQL Server 2012, these memory limits are enforced only for the database cache (buffer pool). 
+The rest of the caches in the SQL Server memory manager can use much more memory than is specified by these edition limits. 
+For example, a SQL Server 2012 Express edition can use only a maximum size of 1.4 GB for its database cache. 
+Other caches (such as the procedure cache, the metadata cache, and so on) can consume memory up to the size specified by the "max server memory" configuration.
